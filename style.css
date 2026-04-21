@@ -1,0 +1,43 @@
+@font-face {
+    font-family: fihFont;
+    src: url(Shifa\ Rame.ttf);
+}
+
+@font-face {
+    font-family: headerFont;
+    src: url(OrangeGumdrop-PersonalUse-Regular.otf);
+}
+
+body {
+    background-color: #F4F9FF;
+}
+
+.header {
+    text-align: center;
+    font-family: headerFont;
+    color: #007EA7;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.header h3 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.fih {
+    display: flex;
+    justify-content: center;
+    border-color: #A9BCD0;
+    border-style: ridge;
+    border-width: 10px;
+}
+
+p {
+    font-family: fihFont;
+    color: #233D4D;
+    text-align: center;
+}
