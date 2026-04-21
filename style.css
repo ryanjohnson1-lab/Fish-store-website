@@ -41,3 +41,7 @@ p {
     color: #233D4D;
     text-align: center;
 }
+
+.small {
+    font-size: 5px;
+}
