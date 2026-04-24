@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: fihFont;
     src: url(Shifa\ Rame.ttf);
@@ -6,6 +11,11 @@
 @font-face {
     font-family: headerFont;
     src: url(OrangeGumdrop-PersonalUse-Regular.otf);
+}
+
+@font-face {
+    font-family: navBar;
+    src: url(Super\ Starfish.ttf);
 }
 
 body {
@@ -28,11 +38,11 @@ body {
     margin-top: 5px;
 }
 
-.fih {
-    display: flex;
-    justify-content: center;
+img {
+    display: block;
+    margin: auto;
     border-color: #A9BCD0;
-    border-style: ridge;
+    border-style: groove;
     border-width: 10px;
 }
 
@@ -45,3 +55,39 @@ p {
 .small {
     font-size: 5px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #233D4D;
+    color: #F8FAFC;
+    display: flex;
+    font-family: navBar;
+    justify-content: center;
+    /* makes the thing only move past a certain point */
+    position: sticky;
+    top: 0;
+}
+
+ul li a {
+    display: block;
+    color: #F8FAFC;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ul li a:hover {
+    background-color: #99D9EA;
+}
+
+  ul li :first-child {
+    float: left;
+    border-left: 5px solid #CBD5E1
+  }
+  
+  ul li :last-child {
+    float: left;
+    border-right: 5px solid #CBD5E1
+  }
