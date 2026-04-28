@@ -139,3 +139,35 @@ ul li a:hover {
   .flip-card-back h1 {
     color: #F8FAFC;
   }
+
+  input, textarea {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-family: navBar;
+    margin: auto;
+    border-color: #A9BCD0;
+    border-style: groove;
+    border-width: 10px;
+   }
+   
+   button {
+    padding: 10px 15px;
+    background-color: navy;
+    color: white;
+    border: none;
+    font-family:headerFont;
+    margin: auto;
+    border-color: #A9BCD0;
+    border-style: double;
+    border-width: 3px;
+   }
+   
+   button:hover {
+    background-color: rgb(59, 59, 197);
+   }
+
+   label {
+    font-family:fihFont;
+   }
+   

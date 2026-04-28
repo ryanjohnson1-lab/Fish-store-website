@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Store</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!--Nav Bar-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!--End of Nav-->
+
+    <center>
+
+    <form onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+       
+        <label for="message">Message:</label><br>
+        <textarea id="message"></textarea><br><br>
+       
+        <button type="submit">Send</button>
+       </form>
+       
+       <p id="response"></p>
+
+    </center>
+       
+
+
+<script src="script.js"></script>
+</body>
